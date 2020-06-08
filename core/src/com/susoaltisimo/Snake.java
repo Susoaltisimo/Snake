@@ -42,9 +42,7 @@ public class Snake extends ApplicationAdapter {
 
 	public static int SCORE;
 	public static boolean GAMEOVER;
-	//Don't clear the screen, just draw over it.
 	public boolean rendered;
-	//Only need this because libGDX works like that.
 	public int renderCount;
 	private BitmapFont font;
 
